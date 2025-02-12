@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-class Sample
-{
+class Sample{
  public static void main(String args[]){
 
   Scanner sc = new Scanner(System.in);
@@ -21,13 +20,14 @@ class Sample
 	System.out.print("Designation: ");
 	String des=sc.next();
 
+	System.out.print("Location: ");
+	String loc=sc.next();
+
 	System.out.println("Id:"+id );
 	System.out.println("Name:"+name );
 	System.out.println("Age:"+age );
 	System.out.println("Salary:"+salary );
 	System.out.println("Designation:"+des );
-
-
-	 
+		System.out.println("Location:"+loc );	 
 }
 }
